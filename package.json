@@ -1,0 +1,29 @@
+{
+  "name": "belajar-sisi-inv",
+  "version": "1.0.0",
+  "description": "membuat sistem informasi inventaris",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startdev": "nodemon server.js"
+  },
+  "author": "viody75",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "http-errors": "^2.0.0",
+    "method-override": "^3.0.0",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
